@@ -1,4 +1,55 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 body
 {
-    color: tomato
+    background-color: #6E6E6E;
+}
+
+.header {
+    color: #BAFF39;
+    text-align: center;
+    padding-right: 1%;
+    font-size: 36px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 15% 2% 15%;
+    border: 3px solid #BAFF39;
+    border-radius: 1em;
+    font-size: 18px;
+}
+
+a:first-child {
+    margin-left: 2%;
+}
+
+a:last-child {
+    margin-right: 2%;
+}
+
+a, a:visited {
+    color: white; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BAFF39;
+    text-decoration: underline;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    height: 400px;
+    width: 90%;
+}
+
+#resumeDownload {
+    display: block;
+    margin: 0 auto 2% auto;
 }
