@@ -1,5 +1,6 @@
 * {
     font-family: 'Noto Sans', sans-serif;
+    color: #BAFF39;
 }
 
 body
@@ -7,49 +8,62 @@ body
     background-color: #6E6E6E;
 }
 
-.header {
-    color: #BAFF39;
-    text-align: center;
-    padding-right: 1%;
-    font-size: 36px;
+body, html {
+    height: 95%;
+    width: 95%;
+    margin: 1.25% auto;
 }
 
-.navbar {
+div {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0% 15% 2% 15%;
-    border: 3px solid #BAFF39;
+    flex-direction: column;
+}
+
+#container {
+    border: solid 3px white;
     border-radius: 1em;
-    font-size: 18px;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-a:first-child {
-    margin-left: 2%;
+#defaultDisplay {
+    margin-top: 2%;
+    width: 30%;
+    justify-content: space-between;
+    height: 95%;
 }
 
-a:last-child {
-    margin-right: 2%;
+#newContent {
+    margin-top: 2%;
+    width: 60%;
+    height: 95%;
+}
+
+#colorDiv {
+    display: inline-block;
+    color: white;
+}
+h1 {
+    font-weight: 300;
+    margin: 0 0 2% 3px;
+}
+
+h4 {
+    font-weight: 300;
+    margin: 0 0 2% 3px;
 }
 
 a, a:visited {
-    color: white; 
     text-decoration: none;
 }
 
 a:hover {
-    color: #BAFF39;
-    text-decoration: underline;
+    color: white;
 }
 
-iframe {
-    display: block;
-    margin: auto;
-    height: 400px;
-    width: 90%;
-}
-
-#resumeDownload {
-    display: block;
-    margin: 0 auto 2% auto;
+ul {
+    margin-top: 5%;
+    list-style: none;
+    padding-left: 3px;
 }

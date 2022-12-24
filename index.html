@@ -1,17 +1,29 @@
 <!doctype html>
 <html lang="en-us">
   <head>
-        <title>Nathan Papa | Biography</title>
+        <title>Nathan Papa | Portfolio</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css" type="text/css" />
     </head>
     <body>
-            <div class="navbar">
-                <a href="projects.html">Projects</a>
-                <a href="resume.html">Resume</a>
-                <a href="contact.html">Contact Info</a>
+        <div id="container">
+            <div id="defaultDisplay">
+                <div id="headerDiv">
+                    <h1>Nathan Papa</h1>
+                    <h4>Georgia Tech Computer Science Student</h4>
+                    <ul>
+                        <li><a id="bioLink" href="#">About Me</a></li>
+                        <li><a id="projectsLink" href="#">Projects</a></li>
+                        <li><a id="resumeLink" href="#">Resume</a></li>
+                        <li><a id="contactLink" href="#">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div id="colorDiv">
+                    <input type="checkbox" checked="true">Light Mode</input>
+                    <input type="checkbox">Dark Mode</input>
+                </div>
             </div>
-            <h1 class="header">About Me</h1>
+            <div id="newContent"></div>
         </div>
         <script src="script.js"></script>
     </body>
